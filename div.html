@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    #parent {
+        width: 400px;
+        height: 400px;
+        background: #d60000;
+        z-index: 0;
+        /* display: grid;
+        place-items: center; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 40px;
+        border: 5px solid yellow;
+        margin: 10px;
+
+
+    }
+
+    #child {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(193, 22, 199);
+        z-index: 1;
+
+    }
+</style>
+
+<body>
+    <div id="parent">
+        <div id="child"></div>
+    </div>
+
+</body>
+
+</html>
