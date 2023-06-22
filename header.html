@@ -2,36 +2,82 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ARHub</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="header_flex.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="header.css" />
 </head>
 
 <body>
-
     <header>
-        <div class="logo">ARHUB</div>
-        <div class="bar_icon">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#" class="">Feature</a></li>
-                <li><a href="#" class="">Pricing</a></li>
-                <li><a href="#" class="">Contacts</a></li>
+        <a class="logo" href="" target="_parent">
+            <img src="arhub_text.png" alt="arhub_logo" />
+            <!-- <h1>ARHUB</h1> -->
+        </a>
 
+        <nav class="nav_bar">   
+            <ul class="nav_bar_ul">
+                <li class="navbar_item_list nav_class1">
+                    <a class="navbar_item_list_link" href="#" target="_blank">Home</a>
+                </li>
+                <li class="navbar_item_list dropdown nav_class2">
+                    Filters Category
+                    <!-- <span class="navbar_item_list_link">Filters Category</span> -->
+                    <ul class="dropdown_content">
+                        <li class="navbar_item_list">
+                            <a class="navbar_item_list_link" href="#" target="_blank">Instagram Filters</a>
+                        </li>
+                        <li class="navbar_item_list">
+                            <a class="navbar_item_list_link" href="#" target="_blank">Snapchat Filters</a>
+                        </li>
+                        <li class="navbar_item_list">
+                            <a class="navbar_item_list_link" href="#" target="_blank">Web Games</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar_item_list nav_class3">
+                    <a class="navbar_item_list_link" href="#" target="_blank">Pricing</a>
+                </li>
+                <li class="navbar_item_list nav_class4">
+                    <a class="navbar_item_list_link" href="#" target="_blank">About us</a>
+                </li>
             </ul>
         </nav>
+
+        <div class="bar_icon" onclick="bar_icon_click(this)">
+            <div>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
     </header>
 
+
+    <!-- <section>
+        <div class="love">
+
+        </div>
+    </section> -->
 </body>
-<script src="index.js" defer></script>
+<script src="header.js" defer></script>
 
 </html>
+
+<!-- <nav class="main-navigation">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li class="menu-item-has-children"><a href="#">Services</a>
+        <ul class="sub-menu">
+          <li><a href="#">Plumbing</a></li>
+          <li class="menu-item-has-children"><a href="#">Heating</a></li>
+          <li><a href="#">Electrical</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav> -->
