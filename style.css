@@ -3,7 +3,7 @@
 :root {
 
     /* color: 60%;; */
-    --base_color1: #010100;
+    --base_color1: #010100; 
     /* color: 30%;; */
     --base_color2: #d1903b;
     /* color: 10%;; */
@@ -13,20 +13,24 @@
     --base_color_text: #ebde90;
     --base_color_text_hover: #cf0c0c;
     --base_gradient_color1: #000000;
-    --base_gradient_color2: #000000;
+    --base_gradient_color2: #000000;          
+    --alt_base_color1: #c4c4f6;
+    --alt_base_color2: #4827db;
+    --alt_base_color3: #df8a3b;
     --white: #f4eee0;
     --blue: #4e4ee3;
     --pink: #b4238e;
+    --bg_color0:rgba(122, 133, 255, .7);        
+    --bg_color1:#ffd000;
+    --bg_color2:#0026ff;
+    --bg_color3:#ff00ff;    
+    --bg_color4:#00eeff;
     --font_1: "Catamaran";
     --font_2: "Poppins";
     --font_3: "Verdana";
     --font_4: "sans-serif";
-    --alt_base_color1: #c4c4f6;
-    --alt_base_color2: #4827db;
-    --alt_base_color3: #df8a3b;
-    --font_byDefault_size: 1rem;
-    --font_onHover_size: 1.7rem;
-    --font_onHover_reducedSize: 1.25rem;
+    --font_byDefault_size: 2rem;
+    --font_onHover_size: 2.6rem;
 }
 
 * {
@@ -34,11 +38,11 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    font-family: var(--font_2), var(--font_1), "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--font_1), var(--font_2), "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: var(--base_color_text);
     text-decoration: none;
     list-style: none;
-    font-size: 62.5%;
+    font-size: 62.5%;    
 }
 
 body {

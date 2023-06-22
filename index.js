@@ -1,16 +1,29 @@
 
 const bar_icon = document.getElementById("bar_icon");
-const nav_bar = document.getElementsByClassName("nav_bar");
-// const nav = document.getElementsByTagName("nav");
+// const nav_bar = document.getElementsByClassName("nav_bar");
+let header = document.getElementsByTagName("header");
 
-bar_icon.onclick = () => {
-    if (bar_icon.classList.contains("fa-bars")) {
-        bar_icon.classList.remove("fa-bars");
-        bar_icon.classList.add("fa-times");
-        nav_bar.style.display = "none"
+// console.log(nav_bar.style.display);
 
-    } else {
-        bar_icon.classList.remove("fa-times");
-        bar_icon.classList.add("fa-bars");
-    }
-}
+// bar_icon.onclick = () => {
+//     let nav_bar = document.getElementsByClassName("nav_bar");
+//     if (bar_icon.classList.contains("fa-bars")) {
+//         bar_icon.classList.remove("fa-bars");
+//         bar_icon.classList.add("fa-times");
+//         Array.from(nav_bar).forEach((element) => {
+//             element.style.display = "block";
+//         });
+
+//     } else {
+//         bar_icon.classList.remove("fa-times");
+//         bar_icon.classList.add("fa-bars");
+//         Array.from(nav_bar).forEach((element) => {  
+//             element.style.display = "none";           
+//         });
+
+//     }
+// }
+
+// function bar_icon_click(x) {
+//     x.classList.toggle("change");
+//   }
